@@ -14,6 +14,7 @@
 		18811E3A22716B5D00EDD9B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18811E3822716B5D00EDD9B8 /* LaunchScreen.storyboard */; };
 		18811E4522716B5D00EDD9B8 /* ios_PickerKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18811E4422716B5D00EDD9B8 /* ios_PickerKeyboardTests.swift */; };
 		18811E5022716B5D00EDD9B8 /* ios_PickerKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18811E4F22716B5D00EDD9B8 /* ios_PickerKeyboardUITests.swift */; };
+		18811E5E22716B8400EDD9B8 /* PickerKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18811E5D22716B8400EDD9B8 /* PickerKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		18811E4B22716B5D00EDD9B8 /* ios-PickerKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-PickerKeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18811E4F22716B5D00EDD9B8 /* ios_PickerKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_PickerKeyboardUITests.swift; sourceTree = "<group>"; };
 		18811E5122716B5D00EDD9B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18811E5D22716B8400EDD9B8 /* PickerKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				18811E2F22716B5B00EDD9B8 /* AppDelegate.swift */,
 				18811E3122716B5B00EDD9B8 /* ViewController.swift */,
+				18811E5D22716B8400EDD9B8 /* PickerKeyboard.swift */,
 				18811E3322716B5B00EDD9B8 /* Main.storyboard */,
 				18811E3622716B5D00EDD9B8 /* Assets.xcassets */,
 				18811E3822716B5D00EDD9B8 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18811E3222716B5B00EDD9B8 /* ViewController.swift in Sources */,
+				18811E5E22716B8400EDD9B8 /* PickerKeyboard.swift in Sources */,
 				18811E3022716B5B00EDD9B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
